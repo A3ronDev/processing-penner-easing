@@ -5,7 +5,7 @@ public class Bounce {
 	public static float  easeIn(float t,float b , float c, float d) {
 		return c - easeOut (d-t, 0, c, d) + b;
 	}
-	
+	dfffds
 	public static float  easeOut(float t,float b , float c, float d) {
 		if ((t/=d) < (1/2.75f)) {
 			return c*(7.5625f*t*t) + b;
